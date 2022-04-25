@@ -1,0 +1,63 @@
+:root {
+  --color-1: #e84545;
+  --color-2: #e84747;
+  --color-5: #eb6161;
+  --color-3: #2d3033;
+  --color-4: #6c7279;
+  --color-6: #53354a;
+  --color-7: #ffffff;
+  --color-8: #3a3e64;
+  --color-9: #313454;
+  --color-10: #cbccd3;
+  --color-11: #c6cacc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-4);
+}
+
+img {
+  width: 100%;
+}
+p,
+span {
+  margin: 0rem;
+}
+ul,
+li {
+  list-style: none;
+}
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.btn,
+.btn:hover {
+  outline: none;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.btn {
+  background: var(--color-1);
+  display: inline-block;
+  color: var(--color-7);
+}

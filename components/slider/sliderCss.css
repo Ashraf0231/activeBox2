@@ -1,0 +1,118 @@
+.richTextSection {
+  background-color: var(--color-6);
+  margin-bottom: 100px;
+}
+.richTextSection .col-md-6 {
+  padding: 0;
+}
+
+.authorImage {
+}
+.authorImage img {
+  width: 100%;
+  height: auto;
+}
+
+.textContainer {
+  margin-top: 80px;
+  padding-left: 85px;
+  width: 100%;
+}
+.textContainer p {
+  position: relative;
+  margin-bottom: 20px;
+
+  font-family: "Cardo", serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--color-7);
+}
+.textContainer h6 {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-7);
+  text-transform: uppercase;
+}
+/* Dots */
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -50px;
+  left: 60px;
+
+  display: block;
+
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+  text-align: center;
+}
+.slick-dots li {
+  position: relative;
+
+  display: inline-block;
+
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+
+  cursor: pointer;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+
+  display: block;
+
+  width: 20px;
+  height: 20px;
+  padding: -10px;
+
+  cursor: pointer;
+
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 40px;
+  line-height: 20px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 20px;
+  height: 20px;
+
+  content: "•";
+  text-align: center;
+
+  opacity: 0.25;
+  color: var(--color-7);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: var(--color-7);
+}

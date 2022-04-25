@@ -1,0 +1,20 @@
+/* // small device*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bannerTitle {
+    width: 80%;
+    margin: 80px auto 30px;
+  }
+  .bannerTitle h1 {
+    font-size: 40px;
+  }
+  .bannerParagraph {
+    width: 90%;
+    margin: 0 auto 50px;
+  }
+  .bannerParagraph p {
+    font-size: 14px;
+  }
+  .bannerButton {
+    margin-bottom: 80px;
+  }
+}

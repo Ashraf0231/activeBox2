@@ -1,0 +1,9 @@
+/* // Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .gallaryImage .overlayText h5 {
+    font-size: 12px;
+  }
+  .gallaryImage .overlayText p {
+    font-size: 12px;
+  }
+}
